@@ -1,13 +1,10 @@
-# CollectionBuilder-CONTENTdm
+<div class="card my-4">
+<h5 class="card-header">Technical</h5>
+<div class="card-body">
+<div class="card-text" markdown="1">
 
-CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories.
-
-CollectionBuilder-CONTENTdm utilizes [CONTENTdm](https://www.oclc.org/en/contentdm.html) API's to create an engaging "skin" on top of an existing digital collection repository using your existing collection metadata.
+This site is built using [CollectionBuilder-CDM](https://github.com/CollectionBuilder/) which utilizes [CONTENTdm](https://www.oclc.org/en/contentdm.html) API's to create an engaging "skin" on top of an existing digital collection repository.
 [CollectionBuilder](https://github.com/CollectionBuilder/) is an open source tool for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-
-Visit the [CollectionBuilder home](https://collectionbuilder.github.io/) for more information about getting started!
-
-----------
 
 CollectionBuilder is a project of University of Idaho Library's [Digital Initiatives](https://www.lib.uidaho.edu/digital/) as part of the Lib-STATIC toolkit. 
 Powered by the open source static site generator [Jekyll](https://jekyllrb.com/) and a modern static web stack, it puts collection metadata to work building beautiful sites.
@@ -17,3 +14,11 @@ Metadata visualizations are built using open source libraries such as [DataTable
 Object metadata is exposed using [Schema.org](http://schema.org) and [Open Graph protocol](http://ogp.me/) standards.
 
 Questions can be directed to **libstatic.uidaho@gmail.com**
+
+Get the [Source code]({{ site.source-code }}) for this site!
+
+Last build date: {{ site.time | date: "%Y-%m-%d" }}.
+
+</div>
+</div>
+</div>
